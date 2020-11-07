@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Open+Sans|Oswald|Roboto+Mono&display=swap');
+
+body {
+  margin: 0;
+}
+
+.Menu {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: #03A9F4;
+  color: #fff;
+}
+
+.icon .fas, .icon .fab  {
+  font-size: 30px;
+}
+
+.Box-1 {
+  background-color: #888;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.Box-1 h5 {
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  margin: 0;
+  font-family: "Roboto Mono";
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 50%;
+  margin-top: -10px;
+}
